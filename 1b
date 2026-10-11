@@ -1,0 +1,44 @@
+void main() {
+  // 1. Variables and data types
+  String name = "Rahul";
+  int age = 20;
+  double marks = 85.5;
+  bool isStudent = true;
+
+  print("Name: $name");
+  print("Age: $age");
+  print("Marks: $marks");
+  print("Is Student: $isStudent");
+
+  // 2. Arithmetic operators
+  int a = 10;
+  int b = 5;
+
+  print("\nAddition: ${a + b}");
+  print("Subtraction: ${a - b}");
+  print("Multiplication: ${a * b}");
+  print("Division: ${a / b}");
+
+  // 3. Conditional statement
+  if (marks >= 40) {
+    print("\nResult: Pass");
+  } else {
+    print("\nResult: Fail");
+  }
+
+  // 4. For loop
+  print("\nNumbers from 1 to 5:");
+  for (int i = 1; i <= 5; i++) {
+    print(i);
+  }
+
+  // 5. Function call
+  print("\nSum: ${add(10, 20)}");
+}
+
+// Function to add two numbers
+int add(int x, int y) {
+  return x + y;
+}
+
+
